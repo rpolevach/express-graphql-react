@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "roman",
+        "MONGO_PASSWORD": "f5zvC1JVYe24kUP7",
+        "MONGO_DB": "db-ser-cli"
+    }
+}
