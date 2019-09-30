@@ -38,7 +38,7 @@ module.exports = {
       throw err;
     }
   },
-  cancelBooking: async args => {
+  cancelBooking: async (args, req) => {
     if (!req.isAuth) {
       throw new Error("Unauthenticated");
     }

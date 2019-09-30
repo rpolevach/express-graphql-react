@@ -24,11 +24,7 @@ app.use(
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.MONGO_USER}:${
-      process.env.MONGO_PASSWORD
-    }@cluster0-nlmvj.mongodb.net/${
-      process.env.MONGO_DB
-    }?retryWrites=true&w=majority`
+    `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0-a8lw7.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`
   )
   .then(() => {
     app.listen(3000);
