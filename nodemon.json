@@ -1,7 +1,7 @@
 {
   "env": {
     "MONGO_USER": "ayoz4",
-    "MONGO_PASSWORD": "Q4bapgwtB2ui9lTc",
+    "MONGO_PASSWORD": "kwdSDyrPSnfbdDKJ",
     "MONGO_DB": "db-ser-cli"
   }
 }
